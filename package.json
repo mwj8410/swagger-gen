@@ -1,0 +1,16 @@
+{
+  "name": "swagger-gen",
+  "version": "0.0.1",
+  "description": "A module to generate swagger pages from inline comments.",
+  "main": "swagger-gen.js",
+  "repository": "",
+  "author": "Matthew W. Jackson <mwj8410@gmail.com>",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "express": "^4.15.2",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "mocha ./tests/ *.js"
+  }
+}
