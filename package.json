@@ -7,8 +7,12 @@
   "author": "Matthew W. Jackson <mwj8410@gmail.com>",
   "dependencies": {
     "chai": "^3.5.0",
+    "doctrine": "^2.0.0",
     "express": "^4.15.2",
-    "mocha": "^3.2.0"
+    "extract-comments": "^0.10.1",
+    "js-yaml": "^3.8.3",
+    "mocha": "^3.2.0",
+    "supertest": "^3.0.0"
   },
   "scripts": {
     "test": "mocha ./tests/ *.js"
