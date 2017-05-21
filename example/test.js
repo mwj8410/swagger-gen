@@ -16,6 +16,22 @@ module.exports = {
    *       - Example
    */
 
+  /**
+   * @swagger
+   * /test:
+   *   post:
+   *     description: a test
+   *     produces:
+   *       - application/json
+   *     responses:
+   *       200:
+   *         description: Success
+   *       403:
+   *         description: Unauthorized
+   *     tags:
+   *       - Example
+   */
+
   get: () => {
     return 'test';
   },
